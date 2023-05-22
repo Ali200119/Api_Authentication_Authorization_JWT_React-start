@@ -214,3 +214,47 @@ main .container .content #right .education .magistr .title {
 main .container .content #right .education .magistr .university {
   margin-top: 10px;
 }
+
+main .container .content #right .experience {
+  margin-top: 20px;
+}
+
+main .container .content #right .experience h2 {
+  text-transform: uppercase;
+}
+
+main .container .content #right .experience .shop-assistant, .busboy, .cashier-assistant {
+  margin-top: 30px;
+}
+
+main .container .content #right .experience h4 {
+  font-weight: unset;
+}
+
+main .container .content #right .experience .title {
+  display: flex;
+  justify-content: space-between;
+}
+
+main .container .content #right .experience .company h4:nth-child(1) {
+  margin-top: 10px;
+}
+
+main .container .content #right .experience .company h4:nth-child(2) {
+  margin-top: 25px;
+}
+
+main .container .content #right ul {
+  margin-top: 25px;
+}
+
+main .container .content #right ul li {
+  margin-top: 10px;
+}
+
+main .container .content #right hr {
+  height: 2px;
+  border: none;
+  background-color: #dde1e6;
+  margin-top: 30px;
+}

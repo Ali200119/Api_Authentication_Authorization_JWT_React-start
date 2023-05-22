@@ -32,9 +32,9 @@ function App() {
               <h2>Contact</h2>
 
               <ul>
-                <li>talibov.ali2001@mail.ru <i class="fa-regular fa-envelope"></i></li>
-                <li>+994506145036 <i class="fa-solid fa-phone"></i></li>
-                <li>Xetai, Izzet Orucova 16, Baku, Azerbaijan <i class="fa-solid fa-location-dot"></i></li>
+                <li>talibov.ali2001@mail.ru <i className="fa-regular fa-envelope"></i></li>
+                <li>+994506145036 <i className="fa-solid fa-phone"></i></li>
+                <li>Xetai, Izzet Orucova 16, Baku, Azerbaijan <i className="fa-solid fa-location-dot"></i></li>
                 <li><a href="https://github.com/Ali200119">GitHub</a></li>
               </ul>
             </div>
@@ -93,6 +93,58 @@ function App() {
                 </div>
               </div>
             </div>
+
+            <div className="experience">
+              <h2>Experience</h2>
+
+              <div className="shop-assistant">
+                <div className="title">
+                  <h3>Shop Assistant</h3>
+                  <h4>03/2021-03/2021</h4>
+                </div>
+
+                <div className="company">
+                  <h4>Geek.az</h4>
+                  <h4>Help the seller with buyers</h4>
+                </div>
+              </div>
+
+              <div className="busboy">
+                <div className="title">
+                  <h3>Busboy</h3>
+                  <h4>02/2021-05/2021</h4>
+                </div>
+
+                <div className="company">
+                  <h4>Shakespeare Coffee & Bistro</h4>
+                  
+                  <ul>
+                    <li>Cleaning and preparing tables</li>
+                    <li>Cutlery cleaning</li>
+                    <li>Bring food to the table</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div className="cashier-assistant">
+                <div className="title">
+                  <h3>Cashier Assistant</h3>
+                  <h4>07/2021-09/2021</h4>
+                </div>
+
+                <div className="company">
+                  <h4>Neptun Supermarket</h4>
+                  
+                  <ul>
+                    <li>Packaging products in bags</li>
+                    <li>Assist customers in carrying heavy packages of groceries</li>
+                    <li>Delivery of products to the house</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <hr/>
           </div>
         </div>
       </div>
