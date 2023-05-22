@@ -57,106 +57,160 @@ main .container #bio .border .text h3 {
   margin-top: 10px;
 }
 
-main .container #left {
-  width: 35%;
+main .container .content {
+  display: flex;
   margin-top: 70px;
-  margin-left: 15px;
-  border-right: 2px solid #dde1e6;
   margin-bottom: 30px;
 }
 
-main .container #left .objective {
+main .container .content #left {
+  width: 35%;
+  margin-left: 15px;
+  border-right: 2px solid #dde1e6;
+}
+
+main .container .content #left .objective {
   text-align: right;
   width: 90%;
   border-bottom: 2px solid #dde1e6;
 }
 
-main .container #left .objective h2 {
+main .container .content #left .objective h2 {
   text-transform: uppercase;
 }
 
-main .container #left .objective p {
+main .container .content #left .objective p {
   margin-top: 17px;
   line-height: 20px;
   margin-bottom: 15px;
 }
 
-main .container #left .contact {
+main .container .content #left .contact {
   margin-top: 20px;
   width: 90%;
   border-bottom: 2px solid #dde1e6;
 }
 
-main .container #left .contact h2 {
+main .container .content #left .contact h2 {
   text-transform: uppercase;
   text-align: right;
 }
 
-main .container #left .contact ul {
+main .container .content #left .contact ul {
   list-style: none;
   text-align: right;
   margin-bottom: 15px;
 }
 
-main .container #left .contact ul li {
+main .container .content #left .contact ul li {
   margin-top: 20px;
 }
 
-main .container #left .contact ul li a {
+main .container .content #left .contact ul li a {
   text-decoration: none;
 }
 
-main .container #left .contact ul li:nth-child(1) {
+main .container .content #left .contact ul li:nth-child(1) {
   margin-top: 10px;
 }
 
-main .container #left .skills {
+main .container .content #left .skills {
   margin-top: 20px;
   width: 90%;
   border-bottom: 2px solid #dde1e6;
 }
 
-main .container #left .skills h2 {
+main .container .content #left .skills h2 {
   text-transform: uppercase;
   text-align: right;
 }
 
-main .container #left .skills ul {
+main .container .content #left .skills ul {
   list-style: none;
   text-align: right;
   margin-bottom: 15px;
 }
 
-main .container #left .skills ul li {
+main .container .content #left .skills ul li {
   margin-top: 20px;
 }
 
-main .container #left .skills ul li:nth-child(1) {
+main .container .content #left .skills ul li:nth-child(1) {
   margin-top: 10px;
 }
 
-
-main .container #left .languages {
+main .container .content #left .languages {
   margin-top: 20px;
   width: 90%;
   border-bottom: 2px solid #dde1e6;
 }
 
-main .container #left .languages h2 {
+main .container .content #left .languages h2 {
   text-transform: uppercase;
   text-align: right;
 }
 
-main .container #left .languages ul {
+main .container .content #left .languages ul {
   list-style: none;
   text-align: right;
   margin-bottom: 15px;
 }
 
-main .container #left .languages ul li {
+main .container .content #left .languages ul li {
   margin-top: 20px;
 }
 
-main .container #left .languages ul li:nth-child(1) {
+main .container .content #left .languages ul li:nth-child(1) {
+  margin-top: 10px;
+}
+
+
+
+
+main .container .content #right {
+  margin-left: 40px;
+  width: 58%;
+}
+
+main .container .content #right .education {
+  border-bottom: 2px solid #dde1e6;
+}
+
+main .container .content #right .education h2 {
+  text-transform: uppercase;
+}
+
+main .container .content #right .education .bachelor {
+  margin-top: 10px;
+}
+
+main .container .content #right .education .bachelor h3, h4 {
+  font-weight: unset;
+}
+
+main .container .content #right .education .bachelor .title {
+  display: flex;
+  justify-content: space-between;
+}
+
+main .container .content #right .education .bachelor .university {
+  margin-top: 10px;
+}
+
+main .container .content #right .education .magistr {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+main .container .content #right .education .magistr h3, h4 {
+  font-weight: unset;
+}
+
+main .container .content #right .education .magistr .title {
+  display: flex;
+  justify-content: space-between;
+}
+
+main .container .content #right .education .magistr .university {
   margin-top: 10px;
 }
