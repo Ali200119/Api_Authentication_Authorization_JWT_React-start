@@ -1,0 +1,162 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: gray;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+main .container {
+  width: 58%;
+  margin-top: 100px;
+  background-color: white;
+}
+
+main .container #header-line {
+  height: 35px;
+  background-color: aqua;
+}
+
+main .container #bio {
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+}
+
+main .container #bio .border {
+  width: 80%;
+  display: flex;
+  align-items: center;
+}
+
+main .container #bio .border img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+main .container #bio .border .text {
+  margin-left: 50px;
+}
+
+main .container #bio .border .text h2 {
+  text-transform: uppercase;
+  font-weight: unset;
+}
+
+main .container #bio .border .text h3 {
+  margin-top: 10px;
+}
+
+main .container #left {
+  width: 35%;
+  margin-top: 70px;
+  margin-left: 15px;
+  border-right: 2px solid #dde1e6;
+  margin-bottom: 30px;
+}
+
+main .container #left .objective {
+  text-align: right;
+  width: 90%;
+  border-bottom: 2px solid #dde1e6;
+}
+
+main .container #left .objective h2 {
+  text-transform: uppercase;
+}
+
+main .container #left .objective p {
+  margin-top: 17px;
+  line-height: 20px;
+  margin-bottom: 15px;
+}
+
+main .container #left .contact {
+  margin-top: 20px;
+  width: 90%;
+  border-bottom: 2px solid #dde1e6;
+}
+
+main .container #left .contact h2 {
+  text-transform: uppercase;
+  text-align: right;
+}
+
+main .container #left .contact ul {
+  list-style: none;
+  text-align: right;
+  margin-bottom: 15px;
+}
+
+main .container #left .contact ul li {
+  margin-top: 20px;
+}
+
+main .container #left .contact ul li a {
+  text-decoration: none;
+}
+
+main .container #left .contact ul li:nth-child(1) {
+  margin-top: 10px;
+}
+
+main .container #left .skills {
+  margin-top: 20px;
+  width: 90%;
+  border-bottom: 2px solid #dde1e6;
+}
+
+main .container #left .skills h2 {
+  text-transform: uppercase;
+  text-align: right;
+}
+
+main .container #left .skills ul {
+  list-style: none;
+  text-align: right;
+  margin-bottom: 15px;
+}
+
+main .container #left .skills ul li {
+  margin-top: 20px;
+}
+
+main .container #left .skills ul li:nth-child(1) {
+  margin-top: 10px;
+}
+
+
+main .container #left .languages {
+  margin-top: 20px;
+  width: 90%;
+  border-bottom: 2px solid #dde1e6;
+}
+
+main .container #left .languages h2 {
+  text-transform: uppercase;
+  text-align: right;
+}
+
+main .container #left .languages ul {
+  list-style: none;
+  text-align: right;
+  margin-bottom: 15px;
+}
+
+main .container #left .languages ul li {
+  margin-top: 20px;
+}
+
+main .container #left .languages ul li:nth-child(1) {
+  margin-top: 10px;
+}
